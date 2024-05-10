@@ -1,0 +1,7 @@
+body {
+    background-image: ("../img/fondo-pacman.jpg");
+}
+img {
+    display: block;
+    margin: 0% auto;
+}
