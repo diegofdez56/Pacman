@@ -1,7 +1,17 @@
 body {
-    background-image: ("../img/fondo-pacman.jpg");
+    background-image: url("../img/fondo-pacman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
 }
+
 img {
-    display: block;
-    margin: 0% auto;
+    width: 100px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
