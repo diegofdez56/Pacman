@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Pacman</title>
 </head>
-<header>
-    <div id="logo_cabecera">
-        <img src="./img/pac-man-logo.png">
-        <img src="./img/pac-man-logo-png-transparent.png">
-    </div>
-</header>
+
 <body>
-    <div id="pacman">
-        <img src="./img/Pacman.png">
-        <img src="./img/fantasmito.png">
+    <div id="header">
+        <img id="logo" src="./img/pac-man-logo.png">
+        <img id="logo_pacman" src="./img/pac-man-logo-png-transparent.png">
     </div>
+    <div id="game-container">
+        <div id="pacman"></div>
+        <div id="ghost"></div>
+    </div>
+    <div id="score">0000</div>
+    <div id="game-over">Game Over</div>
+
     <audio autoplay src="./img/Pacman-Game-Start-Sound.mp3"></audio>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
