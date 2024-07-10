@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('../img/PAC-FONT.TTF') format('truetype');
+    src: url('./../assets/img/PAC-FONT.TTF') format('truetype');
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('../img/fondo-pacman.jpg') no-repeat center center fixed;
+    background: url('./../assets/img/fondo-pacman.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #pacman {
-    background: url('../img/Pacman.png') no-repeat center center;
+    background: url('../assets/img/Pacman.png') no-repeat center center;
     background-size: cover;
 }
 
