@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     ghost.style.top = `${Math.random() * (gameContainer.clientHeight - 100)}px`;
     ghost.style.left = `${Math.random() * (gameContainer.clientWidth - 100)}px`;
     ghost.style.background =
-      'url("../img/fantasmito.png") no-repeat center center';
+      'url("./../img/fantasmito.png") no-repeat center center';
     ghost.style.backgroundSize = "cover";
     ghost.addEventListener("click", () => {
       if (gameOver) return;
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       Math.random() * (gameContainer.clientWidth - 100)
     }px`;
     cherry.style.background =
-      'url("../img/cherry.png") no-repeat center center';
+      'url("./../img/cherry.png") no-repeat center center';
     cherry.style.backgroundSize = "cover";
     cherry.addEventListener("click", () => {
       if (gameOver) return;
